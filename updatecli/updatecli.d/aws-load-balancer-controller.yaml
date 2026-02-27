@@ -1,0 +1,58 @@
+sources:
+  lastRelease:
+    kind: helmchart
+    spec:
+      url: 'https://aws.github.io/eks-charts'
+      name: 'aws-load-balancer-controller'
+targets:
+  chart:
+    name: bump chart version to {{ source "lastRelease" }}
+    kind: yaml
+    scmid: github
+    sourceid: lastRelease
+    spec:
+      file: 'aws-load-balancer-controller/kustomization.yaml'
+      key: '$.helmCharts[0].version'
+  kubectl:
+    name: run kubectl when chart changed
+    kind: shell
+    scmid: github
+    dependson:
+    - "chart:or"
+    dependsonchange: true
+    disablesourceinput: true
+    spec:
+      command: "rm -rf aws-load-balancer-controller/charts && kubectl kustomize . -o aws-load-balancer-controller.yaml --enable-helm"
+      changedif:
+        kind: file/checksum
+        spec:
+          files:
+          - aws-load-balancer-controller.yaml
+      environments:
+      - name: PATH
+
+scms:
+  github:
+    kind: "github"
+    spec:
+      user: "argoyle"
+      email: "updatecli@opzkit.io"
+      owner: "opzkit"
+      repository: 'terraform-aws-k8s-addons-aws-load-balancer-controller'
+      token: '{{ requiredEnv "UPDATECLI_GITHUB_TOKEN" }}'
+      username: 'UpdateCLI'
+      branch: "main"
+      commitusingapi: true
+
+actions:
+  addon:
+    kind: "github/pullrequest"
+    scmid: "github"
+    spec:
+      automerge: true
+      mergemethod: squash
+      usetitleforautomerge: true
+      draft: false
+      labels:
+      - "dependencies"
+      title: 'chore(deps): update AWS Load Balancer Controller version to {{ source "lastRelease" }}'

@@ -1,0 +1,51 @@
+sources:
+  lastRelease:
+    kind: githubrelease
+    spec:
+      owner: 'kubernetes-sigs'
+      repository: 'gateway-api'
+      token: '{{ requiredEnv "UPDATECLI_GITHUB_TOKEN" }}'
+      versionfilter:
+        kind: semver
+targets:
+  crds:
+    name: download gateway-api CRDs {{ source "lastRelease" }}
+    kind: shell
+    scmid: github
+    sourceid: lastRelease
+    disablesourceinput: true
+    spec:
+      command: 'curl -sL "https://github.com/kubernetes-sigs/gateway-api/releases/download/{{ source "lastRelease" }}/experimental-install.yaml" -o gateway-api-crds.yaml'
+      changedif:
+        kind: file/checksum
+        spec:
+          files:
+          - gateway-api-crds.yaml
+      environments:
+      - name: PATH
+
+scms:
+  github:
+    kind: "github"
+    spec:
+      user: "argoyle"
+      email: "updatecli@opzkit.io"
+      owner: "opzkit"
+      repository: 'terraform-aws-k8s-addons-aws-load-balancer-controller'
+      token: '{{ requiredEnv "UPDATECLI_GITHUB_TOKEN" }}'
+      username: 'UpdateCLI'
+      branch: "main"
+      commitusingapi: true
+
+actions:
+  addon:
+    kind: "github/pullrequest"
+    scmid: "github"
+    spec:
+      automerge: true
+      mergemethod: squash
+      usetitleforautomerge: true
+      draft: false
+      labels:
+      - "dependencies"
+      title: 'chore(deps): update Gateway API CRDs to {{ source "lastRelease" }}'

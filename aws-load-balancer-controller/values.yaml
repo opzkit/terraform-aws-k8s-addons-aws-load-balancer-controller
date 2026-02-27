@@ -1,0 +1,12 @@
+clusterName: __CLUSTER_NAME__
+vpcId: __VPC_ID__
+region: __REGION__
+replicaCount: 2
+serviceAccount:
+  create: true
+  name: aws-load-balancer-controller
+enableCertManager: true
+controllerConfig:
+  featureGates:
+    ALBGatewayAPI: true
+    NLBGatewayAPI: true
