@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.1...v0.1.2) (2026-02-27)
+
+
+### Miscellaneous Chores
+
+* remove empty main.tf ([b678a94](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/b678a94076a9655374975937249635bd32212171))
+
 ## [0.1.1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.0...v0.1.1) (2026-02-27)
 
 
