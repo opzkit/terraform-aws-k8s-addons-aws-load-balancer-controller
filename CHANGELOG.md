@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.3...v0.1.4) (2026-03-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token action to v3 ([#7](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/7)) ([4c21517](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/4c21517eda5dc910329643a007c149319598ebaf))
+
 ## [0.1.3](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.2...v0.1.3) (2026-03-14)
 
 
