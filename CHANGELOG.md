@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.3](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.2...v0.1.3) (2026-03-14)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to fee1f7d ([#5](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/5)) ([c68b49c](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/c68b49cec89036ec5ecf04d66a7ff94b9e28d6cf))
+* **deps:** update terraform-linters/setup-tflint action to v6.2.2 ([#6](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/6)) ([c5a8b8e](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/c5a8b8ed2342135b61cc58a0a05e7fdbc99e328c))
+
 ## [0.1.2](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.1...v0.1.2) (2026-02-27)
 
 
