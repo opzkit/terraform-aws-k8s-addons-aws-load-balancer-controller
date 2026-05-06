@@ -4,7 +4,7 @@ kind: Kustomization
 helmCharts:
   - name: aws-load-balancer-controller
     repo: https://aws.github.io/eks-charts
-    version: 3.2.2
+    version: 3.3.0
     releaseName: aws-load-balancer-controller
     namespace: kube-system
     includeCRDs: true
