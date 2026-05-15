@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.8](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.7...v0.1.8) (2026-05-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to bcd2ba4 ([#35](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/35)) ([bc46354](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/bc46354f54387b9af101e54c527629e4ae583d0c))
+* **deps:** update hashicorp/setup-terraform action to v4.0.1 ([#36](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/36)) ([a8cce80](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/a8cce80d72c5d2abdb682d2fbbd0b4f7b103dcac))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.150.0 ([#33](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/33)) ([dc487c6](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/dc487c6a327641e61c9c71d5b882725542fd9b59))
+
 ## [0.1.7](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.6...v0.1.7) (2026-05-06)
 
 
