@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.9](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.8...v0.1.9) (2026-06-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6.0.3 ([#41](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/41)) ([101d99a](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/101d99a6d37133cf46b802e8b0a79f0bbac95e0b))
+* **deps:** update actions/checkout digest to df4cb1c ([#39](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/39)) ([000f248](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/000f2485d066335d59f0bb5086fe8dfff25cfa8b))
+* **deps:** update dependency helm to v4 ([#44](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/44)) ([42b42b0](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/42b42b042947b00bfee6cd7dc70e9fae94f81d9b))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v43.212.4 ([#42](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/42)) ([a105d31](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/a105d31a1f8b9b37702d78747d3f8ee3405da5dc))
+
 ## [0.1.8](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.7...v0.1.8) (2026-06-03)
 
 
