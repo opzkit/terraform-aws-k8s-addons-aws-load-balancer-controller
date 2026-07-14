@@ -2719,8 +2719,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-controller
   namespace: kube-system
 ---
@@ -2731,8 +2731,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-controller-leader-election-role
   namespace: kube-system
 rules:
@@ -2776,8 +2776,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-controller-role
 rules:
 - apiGroups:
@@ -3006,8 +3006,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-controller-leader-election-rolebinding
   namespace: kube-system
 roleRef:
@@ -3026,8 +3026,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-controller-rolebinding
 roleRef:
   apiGroup: rbac.authorization.k8s.io
@@ -3046,8 +3046,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
     prometheus.io/service-monitor: "false"
   name: aws-load-balancer-webhook-service
   namespace: kube-system
@@ -3067,8 +3067,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-controller
   namespace: kube-system
 spec:
@@ -3106,7 +3106,7 @@ spec:
         - --aws-region=__REGION__
         - --aws-vpc-id=__VPC_ID__
         - --feature-gates=ALBGatewayAPI=true,NLBGatewayAPI=true
-        image: public.ecr.aws/eks/aws-load-balancer-controller:v3.4.1
+        image: public.ecr.aws/eks/aws-load-balancer-controller:v3.4.2
         imagePullPolicy: IfNotPresent
         livenessProbe:
           failureThreshold: 2
@@ -3160,8 +3160,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-root-cert
   namespace: kube-system
 spec:
@@ -3182,8 +3182,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-serving-cert
   namespace: kube-system
 spec:
@@ -3204,8 +3204,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-root-issuer
   namespace: kube-system
 spec:
@@ -3219,8 +3219,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-selfsigned-issuer
   namespace: kube-system
 spec:
@@ -3233,8 +3233,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: alb
 ---
 apiVersion: networking.k8s.io/v1
@@ -3244,8 +3244,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: alb
 spec:
   controller: ingress.k8s.aws/alb
@@ -3259,8 +3259,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-webhook
 webhooks:
 - admissionReviewVersions:
@@ -3448,8 +3448,8 @@ metadata:
     app.kubernetes.io/instance: aws-load-balancer-controller
     app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: aws-load-balancer-controller
-    app.kubernetes.io/version: v3.4.1
-    helm.sh/chart: aws-load-balancer-controller-3.4.1
+    app.kubernetes.io/version: v3.4.2
+    helm.sh/chart: aws-load-balancer-controller-3.4.2
   name: aws-load-balancer-webhook
 webhooks:
 - admissionReviewVersions:
