@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.10](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.9...v0.1.10) (2026-10-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.109.3 ([#86](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/86)) ([d01b9f8](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/d01b9f8c1e3f3831a15cd9980440ef8480bca2e8))
+
 ## [0.1.9](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.8...v0.1.9) (2026-10-22)
 
 
