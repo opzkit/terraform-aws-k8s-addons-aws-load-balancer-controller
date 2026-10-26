@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.10](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.9...v0.1.10) (2026-10-26)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/setup-python action to v7.1.0 ([#89](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/89)) ([52b1784](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/52b1784232f2e90fa114e437b14df06d84e3529a))
+* **deps:** update AWS Load Balancer Controller version to 3.6.2 ([#90](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/90)) ([8d37ae1](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/8d37ae13b440f37c32ae3d8c70aba56e5bf4705e))
+* **deps:** update pre-commit hook antonbabenko/pre-commit-terraform to v1.109.3 ([#86](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/86)) ([d01b9f8](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/d01b9f8c1e3f3831a15cd9980440ef8480bca2e8))
+* **deps:** update pre-commit hook renovatebot/pre-commit-hooks to v44.178.3 ([#91](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/91)) ([7174686](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/7174686bfdf2e8ac44441c749ccba1f0faec0392))
+
 ## [0.1.9](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.8...v0.1.9) (2026-10-22)
 
 
