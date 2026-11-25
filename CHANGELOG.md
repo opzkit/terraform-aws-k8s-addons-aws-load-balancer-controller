@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.12](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.11...v0.1.12) (2026-11-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/create-github-app-token digest to f418cff ([#101](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/101)) ([4101611](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/410161140e1067f6f139ec7edf96c9c41dcef489))
+* **deps:** update AWS Load Balancer Controller version to 3.7.0 ([#102](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/102)) ([f93de42](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/f93de42ac674e10b3a3ab38aafdd38d3c77816b8))
+* **deps:** update dependency helm to v4.3.2 ([#99](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/issues/99)) ([f4eb75f](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/commit/f4eb75f37c43d7a0533b9e885dfe80ec066a83e6))
+
 ## [0.1.11](https://github.com/opzkit/terraform-aws-k8s-addons-aws-load-balancer-controller/compare/v0.1.10...v0.1.11) (2026-11-14)
 
 
